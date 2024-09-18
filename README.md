@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Test and Run the Application
+After setting up lazy loading, run your application:
+ng serve
+Navigate to the following URLs to test the lazy-loaded components:
+
+Dashboard: http://localhost:4200/dashboard
+Investment Form: http://localhost:4200/investment
+Performance Reports: http://localhost:4200/performance-reports
+Recommendations: http://localhost:4200/recommendations
+Each module will load only when its respective route is accessed, improving the application's performance.
+
+
