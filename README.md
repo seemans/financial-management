@@ -32,9 +32,16 @@ ng serve
 Navigate to the following URLs to test the lazy-loaded components:
 
 Dashboard: http://localhost:4200/dashboard
+PortfolioOverview: http://localhost:4200/dashboard/PortfolioOverview
 Investment Form: http://localhost:4200/investment
+invDetails:http://localhost:4200/investment/invDetails
 Performance Reports: http://localhost:4200/performance-reports
+performanceRp:http://localhost:4200/performance-reports/performanceRp
 Recommendations: http://localhost:4200/recommendations
+performanceRp:http://localhost:4200/recommendations/performanceRp
+Each module will load only when its respective route is accessed, improving the application's performance.
+
+
 Each module will load only when its respective route is accessed, improving the application's performance.
 
 
