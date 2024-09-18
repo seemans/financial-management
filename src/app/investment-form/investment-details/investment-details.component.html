@@ -1,0 +1,8 @@
+<div *ngFor="let investment of investments; let i = index">
+    <div>
+      <strong>{{ investment.assetType }}</strong> - Quantity: {{ investment.quantity }} - Price: {{ investment.purchasePrice }} - Date: {{ investment.purchaseDate }}
+      <button (click)="deleteInvestment(i)">Delete</button>
+      <button (click)="updateInvestment(i)">Update</button>
+    </div>
+  </div>
+  
